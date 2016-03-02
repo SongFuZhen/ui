@@ -137,3 +137,23 @@
 </div>
 </body>
 </html>
+
+<script language="javascript">
+    function current() {
+        var d = new Date(), str = '';
+        str += d.getFullYear() + '-'; //获取当前年份
+        str += d.getMonth() + 1 + '-'; //获取当前月份（0——11）
+        str += d.getDate() + ' ';
+        str += d.getHours() + ':';
+        str += d.getMinutes() + ':';
+        if (d.getSeconds() < 10) {
+            str += '0' + d.getSeconds();
+        } else {
+            str += d.getSeconds();
+        }
+        return str;
+    }
+    setInterval(function () {
+        $(".message>h4").html(current)
+    }, 1000);
+</script>

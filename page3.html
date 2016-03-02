@@ -83,7 +83,7 @@
 
         .content > strong {
             font: 24px 'Helvetica';
-            color: #5c5c5c;
+            color: #ffffff;
         }
 
         .content > p {
@@ -94,10 +94,31 @@
         /*Box End*/
 
         /*Arrow Start*/
-        .arrow {
-            width: 55px;
-            height: 200px;
-            margin: 70px 0 0 -110px;
+        .right-arrow, .left-arrow {
+            display: flex;
+        }
+
+        .right-arrow > img, .bottom-arrow > img {
+            margin-top: 70px;
+            width: 77px;
+            height: 77px;
+        }
+
+        .bottom-arrow > img {
+            transform: rotate(90deg);
+            margin-left: 130px;
+            margin-top: 0;
+        }
+
+        .left-arrow > img {
+            margin-top: 70px;
+            width: 77px;
+            height: 77px;
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            transform: rotate(180deg);
         }
 
         /*Arrow End*/
@@ -117,7 +138,7 @@
 <hr/>
 
 <div class="col-md-12">
-    <div class="col-md-3">
+    <div class="col-md-3 right-arrow">
         <div class="box">
             <div class="box-title">
                 iQ1 Body
@@ -142,13 +163,11 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="arrow col-md-1">
         <img src="images/arrow.png" alt="Arrow"/>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-3 right-arrow">
         <div class="box">
             <div class="box-title">
                 iQ2 Paint
@@ -173,13 +192,11 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="arrow col-md-1">
         <img src="images/arrow.png" alt="Arrow"/>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-3 right-arrow">
         <div class="box">
             <div class="box-title">
                 Trim Total
@@ -204,13 +221,11 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="arrow col-md-1">
         <img src="images/arrow.png" alt="Arrow"/>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-3 bottom-arrow">
         <div class="box">
             <div class="box-title">
                 GA Total
@@ -235,15 +250,13 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="arrow col-md-1">
-        <img src="images/arrow.png" alt="Arrow" style="transform: rotate(90deg)"/>
+        <img src="images/arrow.png" alt="Arrow"/>
     </div>
 </div>
 
 <div class="col-md-12">
-    <div class="col-md-3">
+    <div class="col-md-3 bottom-arrow">
         <div class="box">
             <div class="box-title">
                 EOL
@@ -268,13 +281,13 @@
                 </div>
             </div>
         </div>
+
+        <img src="images/arrow.png" alt="Arrow"/>
+
+        <img src="images/arrow.png" alt="Arrow" style="transform: rotate(-180deg);margin:-300px 0 0 100px;"/>
     </div>
 
-    <div class="arrow col-md-1">
-        <img src="images/arrow.png" alt="Arrow" style="transform: rotate(180deg)"/>
-    </div>
-
-    <div class="col-md-3">
+    <div class="col-md-3 left-arrow">
         <div class="box">
             <div class="box-title">
                 iQ3 Mid-trim
@@ -299,13 +312,11 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="arrow col-md-1">
         <img src="images/arrow.png" alt="Arrow" style="transform: rotate(180deg)"/>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-3 left-arrow">
         <div class="box">
             <div class="box-title">
                 iQ IP Cockpit Check
@@ -330,13 +341,11 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="arrow col-md-1">
         <img src="images/arrow.png" alt="Arrow" style="transform: rotate(180deg)"/>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-3 left-arrow">
         <div class="box">
             <div class="box-title">
                 iQ DrDoor Check
@@ -365,7 +374,7 @@
 </div>
 
 <div class="col-md-12">
-    <div class="col-md-3">
+    <div class="col-md-3 right-arrow">
         <div class="box">
             <div class="box-title">
                 iQ4 interior
@@ -390,13 +399,11 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="arrow col-md-1">
         <img src="images/arrow.png" alt="Arrow"/>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-3 right-arrow">
         <div class="box">
             <div class="box-title">
                 iQ5 Trim Buy-off
@@ -421,13 +428,11 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="arrow col-md-1">
         <img src="images/arrow.png" alt="Arrow"/>
     </div>
 
-    <div class="col-md-3">
+    <div class="col-md-3 right-arrow">
         <div class="box">
             <div class="box-title">
                 iQ6 Mid-Chassis
@@ -452,13 +457,11 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="arrow col-md-1">
         <img src="images/arrow.png" alt="Arrow"/>
     </div>
-    
-    <div class="col-md-3">
+
+    <div class="col-md-3 right-arrow">
         <div class="box">
             <div class="box-title">
                 iQ12 Roller Test
@@ -487,3 +490,22 @@
 </div>
 </body>
 </html>
+<script language="javascript">
+    function current() {
+        var d = new Date(), str = '';
+        str += d.getFullYear() + '-'; //获取当前年份
+        str += d.getMonth() + 1 + '-'; //获取当前月份（0——11）
+        str += d.getDate() + ' ';
+        str += d.getHours() + ':';
+        str += d.getMinutes() + ':';
+        if (d.getSeconds() < 10) {
+            str += '0' + d.getSeconds();
+        } else {
+            str += d.getSeconds();
+        }
+        return str;
+    }
+    setInterval(function () {
+        $(".message>span").html(current)
+    }, 1000);
+</script>
