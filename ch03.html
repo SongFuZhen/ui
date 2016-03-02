@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 转换</title>
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+    <script src="bootstrap-3.3.5-dist/js/jquery-latest.js"></script>
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .Box, .Box2, .Box3, .Box4, .Box5, .Box6 {
+            margin-top: 100px;
+            margin-right: 20px;
+            width: 300px;
+            height: 300px;
+            background: lightseagreen;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            text-align: center;
+            padding-top: 125px;
+            font-size: 2em;
+            font-style: oblique;
+            transition: transform .3s;
+        }
+
+        .Box:active {
+            transform: rotate(-180deg);
+        }
+
+        .Box2:active {
+            transform: rotateX(180deg);
+        }
+
+        .Box3:active {
+            transform: rotateY(-180deg);
+        }
+
+        .Box4:active {
+            transform: scale(1.1);
+        }
+
+        .Box5:active {
+            transform: scaleX(1.1);
+        }
+
+        .Box6:active {
+            transform: scaleY(1.2);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="Box">
+        2D Rotate(-180deg)
+    </div>
+
+    <div class="Box2" style="background: lightblue;">
+        3D RotateX(-180deg)
+    </div>
+
+    <div class="Box3" style="background: darkred;color: white;">
+        3D RotateY(-180deg)
+    </div>
+</div>
+
+<div class="container">
+    <div class="Box4">
+        3D Scale(1.1)
+    </div>
+
+    <div class="Box5" style="background: lightblue;">
+        3D ScaleX(1.1)
+    </div>
+
+    <div class="Box6" style="background: darkred;color: white;">
+        3D ScaleY(1.1)
+    </div>
+</div>
+</body>
+</html>

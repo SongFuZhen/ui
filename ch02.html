@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 背景</title>
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+    <script src="bootstrap-3.3.5-dist/js/jquery-latest.js"></script>
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <style>
+        .container {
+            margin-top: 200px;
+        }
+
+        .bg-size {
+            background: url("images/bg_flower.gif");
+            background-size: 63px 100px;
+            background-repeat: no-repeat;
+            padding-top: 100px;
+            border: 1px solid black;
+            border-radius: 4px;
+        }
+
+        .bg-size > p, .artwork > p, .repeat > p {
+            height: 40px;
+            margin-bottom: 0;
+            background: lightseagreen;
+            opacity: .9;
+            color: black;
+            padding-top: 10px;
+        }
+
+        .artwork {
+            margin: 20px 0 0 0;
+            border-radius: 4px;
+            border: 1px solid black;
+        }
+
+        .repeat {
+            margin: 20px 0 0 0;
+            padding-top: 180px;
+            border: 1px solid black;
+            border-radius: 4px;
+            background-image: url(images/bg_flower.gif), url(images/bg_flower_2.gif);
+            background-repeat: no-repeat;
+        }
+
+        hr {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="bg-size">
+        <hr/>
+        <p>backgroud-size</p>
+    </div>
+
+    <div class="artwork">
+        <img src="images/bg_flower.gif" alt="Flower"/>
+        <hr/>
+        <p style="background: lightblue;">artwork</p>
+    </div>
+
+    <div class="repeat">
+        <hr/>
+        <p style="background: darkred;color: white;">repeat</p>
+    </div>
+</div>
+</body>
+</html>
