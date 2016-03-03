@@ -35,6 +35,8 @@
         .message > span > strong {
             color: #fe0000;
             font: 40px 'Helvetica';
+            animation: font-animate 1s;
+            animation-iteration-count: infinite;
         }
 
         .table-show {
@@ -75,7 +77,28 @@
         }
 
         .alarm-line > td {
-            background: #ff0000 !important;
+            background: #ff0000;
+            animation: my-animate 1s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes font-animate {
+            from {
+                color: #404A56;
+            }
+            to {
+                color: #ff0000;
+            }
+        }
+
+        @keyframes my-animate {
+            from {
+                background: #404A56;
+            }
+
+            to {
+                background: #ff0000;
+            }
         }
     </style>
 </head>
@@ -83,8 +106,8 @@
 <div class="container">
     <div class="message">
         <img src="images/footer_logo.png" alt="Logo" style="height: 48px;margin: 10px 0 0 0;"/>
-        <h4>2016-2-26 16:00</h4>
-        <span class="col-md-7">Status: <strong>HAS ALARM</strong></span>
+        <h4>2016-02-26 16:00:00</h4>
+        <span class="col-md-6">Status: <strong>HAS ALARM</strong></span>
     </div>
     <hr/>
 
@@ -142,15 +165,38 @@
     function current() {
         var d = new Date(), str = '';
         str += d.getFullYear() + '-'; //获取当前年份
-        str += d.getMonth() + 1 + '-'; //获取当前月份（0——11）
-        str += d.getDate() + ' ';
-        str += d.getHours() + ':';
-        str += d.getMinutes() + ':';
+
+        if (d.getMonth() < 10) {
+            str += '0' + ( d.getMonth() + 1 ) + '-'; //获取当前月份（0——11）
+        } else {
+            str += d.getMonth() + 1 + '-'; //获取当前月份（0——11）
+        }
+
+        if (d.getDate() < 10) {
+            str += '0' + d.getDate() + ' ';
+        } else {
+            str += d.getDate() + ' ';
+        }
+
+        if (d.getHours() < 10) {
+            str += '0' + d.getHours() + ':';
+        } else {
+            str += d.getHours() + ':';
+        }
+
+
+        if (d.getMinutes() < 10) {
+            str += '0' + d.getMinutes() + ':';
+        } else {
+            str += d.getMinutes() + ':';
+        }
+
         if (d.getSeconds() < 10) {
             str += '0' + d.getSeconds();
         } else {
             str += d.getSeconds();
         }
+
         return str;
     }
     setInterval(function () {
