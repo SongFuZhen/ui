@@ -88,7 +88,7 @@
         </DataGrid>
 
         <Grid Grid.Row="3">
-            <Border  Grid.Column="5" Height="90" Margin="20 -60 20 0" CornerRadius="0 0 20 20"  Background="#404a56">
+            <Border  Grid.Column="5" Height="30" Margin="20 -120 20 0" CornerRadius="0 0 20 20"  Background="#404a56">
             </Border>
         </Grid>
     </Grid>
