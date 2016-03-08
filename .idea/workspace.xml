@@ -2,25 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfe05702-db5e-4479-8ed5-27a6195658fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/auto_arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ui.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beike/.vs/Beike/v14/.suo" afterPath="$PROJECT_DIR$/Beike/.vs/Beike/v14/.suo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beike/Beike/bin/Debug/Beike.exe" afterPath="$PROJECT_DIR$/Beike/Beike/bin/Debug/Beike.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beike/Beike/bin/Debug/Beike.pdb" afterPath="$PROJECT_DIR$/Beike/Beike/bin/Debug/Beike.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike.csproj.GenerateResource.Cache" afterPath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike.csproj.GenerateResource.Cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike.csprojResolveAssemblyReference.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike.exe" afterPath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike.pdb" afterPath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beike/Beike/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterPath="$PROJECT_DIR$/Beike/Beike/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike.csproj.FileListAbsolute.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike_MarkupCompile.cache" afterPath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike_MarkupCompile.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike_MarkupCompile.i.cache" afterPath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike_MarkupCompile.i.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike_MarkupCompile.lref" afterPath="$PROJECT_DIR$/Beike/Beike/obj/Debug/Beike_MarkupCompile.lref" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page3-1.html" afterPath="$PROJECT_DIR$/page3-1.html" />
     </list>
     <ignored path="ui.iws" />
@@ -45,8 +26,8 @@
       <file leaf-file-name="page3-1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page3-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6504065">
-              <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.31219512">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -67,8 +48,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/page3-1.html" />
         <option value="$PROJECT_DIR$/ul.html" />
+        <option value="$PROJECT_DIR$/page3-1.html" />
       </list>
     </option>
   </component>
@@ -219,7 +200,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16741072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -294,8 +275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page3-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6504065">
-          <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.31219512">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding />
         </state>
       </provider>
